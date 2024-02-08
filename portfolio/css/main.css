@@ -1,0 +1,28 @@
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    float:left;
+    margin-right: 30px;
+}
+
+.project-con {
+    margin: 100px 0px 150px 200px;
+}
+
+.portfolio-image {
+    margin-right: 20px;
+    border:5px solid #000;
+}
+
+a {
+    color:crimson;
+    padding:20px;
+}
+
+form {
+    display: block;
+}
+
+input {
+margin:10px;
+}
