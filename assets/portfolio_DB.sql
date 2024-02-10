@@ -8,9 +8,9 @@ CREATE TABLE IF NOT EXISTS projects (
 
 -- Insert data into the 'projects' table
 INSERT INTO projects (title, description, image_url) VALUES
-    ('Project 1', 'Description for Project 1', 'project1.jpg'),
-    ('Project 2', 'Description for Project 2', 'project2.jpg'),
-    ('Project 3', 'Description for Project 3', 'project3.jpg');
+    ('Project 1', 'Description for Project 1', 'bean-pod-cover.png'),
+    ('Project 2', 'Description for Project 2', 'cover-zima.png'),
+    ('Project 3', 'Description for Project 3', 'zima-flav.jpeg');
 
 
 -- Create the 'media' table
@@ -24,12 +24,6 @@ CREATE TABLE IF NOT EXISTS media (
 
 -- Insert data into the 'media' table
 INSERT INTO media (project_id, image_filename) VALUES
-    (1, 'project1_image1.jpg'),
-    (1, 'project1_image2.jpg'),
-    (1, 'project1_image3.jpg'),
-    (2, 'project2_image1.jpg'),
-    (2, 'project2_image2.jpg'),
-    (2, 'project2_image3.jpg'),
-    (3, 'project3_image1.jpg'),
-    (3, 'project3_image2.jpg'),
-    (3, 'project3_image3.jpg');
+    (1, 'bean-pod-cover.png'),
+    (2, 'cover-zima.png'),
+    (3, 'zima-flav.jpeg'),
