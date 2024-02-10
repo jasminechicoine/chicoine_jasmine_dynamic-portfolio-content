@@ -1,10 +1,4 @@
-# PORTFOLIO!
-
-
-
-## Inspiration 
-
-
+# MY PORTFOLIO
 
 
 ## Installation
@@ -12,7 +6,7 @@ Simply download the zip file and/or clone to your repo.
 
 ## Usage 
 
-Get a look at all my portfolio pieces and demo reel.
+With these updates, my portfolio website can now be using PDO-style queries to fetch project data from the database and display it on the index and project detail pages. I have the functionality to upload multiple images using the provided PHP files.
 
 
 ## Contributing
